@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — SHEQ Service | Offerte aanvragen</title>
+  <meta name="description" content="Neem contact op met SHEQ Service voor R-DLP, MVK, HVK, V&G plannen, BRL 6000/7000, KAM coördinatie of apparatuurverhuur. Wij reageren binnen één werkdag." />
+  <link rel="canonical" href="https://www.sheq-service.nl/contact" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.sheq-service.nl/contact" />
+  <meta property="og:title" content="Contact — SHEQ Service" />
+  <meta property="og:description" content="Neem contact op met SHEQ Service. Wij reageren binnen één werkdag." />
+  <meta property="og:locale" content="nl_NL" />
+  <link rel="stylesheet" href="/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <nav class="navbar scrolled">
+    <div class="nav-container">
+      <a href="/" class="logo"><span class="logo-sheq">SHEQ</span><span class="logo-services">Service</span></a>
+      <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/#services">Diensten</a></li>
+        <li><a href="/#about">Over ons</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+      <a href="/contact" class="nav-cta">Offerte aanvragen</a>
+      <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="/">Home</a> <span>/</span> <span>Contact</span></div>
+      <p class="label">Neem contact op</p>
+      <h1>Laten we praten</h1>
+      <p class="page-hero-sub">Klaar om uw project volledig compliant te laten verlopen? Stuur ons een bericht en wij reageren binnen één werkdag.</p>
+    </div>
+  </section>
+
+  <section class="page-content">
+    <div class="container contact-page-grid">
+      <div class="contact-info">
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.02 9.82a19.79 19.79 0 01-3.07-8.67A2 2 0 012.93 3h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 10.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          </div>
+          <div>
+            <h4>Telefoon</h4>
+            <p>+31 (0) 00 000 0000</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </div>
+          <div>
+            <h4>E-mail</h4>
+            <p>info@sheq-service.nl</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <div>
+            <h4>Werkgebied</h4>
+            <p>Heel Nederland</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+          </div>
+          <div>
+            <h4>Reactietijd</h4>
+            <p>Binnen één werkdag</p>
+          </div>
+        </div>
+      </div>
+
+      <form class="contact-form" onsubmit="handleSubmit(event)">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Volledige naam</label>
+            <input type="text" id="name" placeholder="Uw naam" required />
+          </div>
+          <div class="form-group">
+            <label for="email">E-mailadres</label>
+            <input type="email" id="email" placeholder="uw@email.nl" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="company">Bedrijfsnaam</label>
+          <input type="text" id="company" placeholder="Uw bedrijf" />
+        </div>
+        <div class="form-group">
+          <label for="service">Dienst van interesse</label>
+          <select id="service">
+            <option value="">Selecteer een dienst...</option>
+            <option value="rdlp">R-DLP</option>
+            <option value="kvp">KVP</option>
+            <option value="mvk">MVK</option>
+            <option value="hvk">HVK</option>
+            <option value="vg">V&amp;G Plannen</option>
+            <option value="brl">BRL 6000 / 7000</option>
+            <option value="kam">KAM Coördinator</option>
+            <option value="verhuur">Verhuur Apparaten</option>
+            <option value="other">Overig</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Bericht</label>
+          <textarea id="message" rows="6" placeholder="Vertel ons over uw project of vraagstuk..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary full-width">Verstuur bericht</button>
+        <div class="form-success" id="formSuccess">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          Bedankt! Wij nemen zo snel mogelijk contact met u op.
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="/" class="logo"><span class="logo-sheq">SHEQ</span><span class="logo-services">Service</span></a>
+        <p>Uw partner voor veiligheid, kwaliteit en compliance in de bouw- en installatiesector.</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h5>Diensten</h5>
+          <ul>
+            <li><a href="/r-dlp">R-DLP</a></li>
+            <li><a href="/kvp">KVP</a></li>
+            <li><a href="/mvk">MVK</a></li>
+            <li><a href="/hvk">HVK</a></li>
+            <li><a href="/vg-plannen">V&amp;G Plannen</a></li>
+            <li><a href="/brl-6000-7000">BRL 6000 / 7000</a></li>
+            <li><a href="/kam-coordinator">KAM Coördinator</a></li>
+            <li><a href="/verhuur-apparaten">Verhuur Apparaten</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Bedrijf</h5>
+          <ul>
+            <li><a href="/#about">Over ons</a></li>
+            <li><a href="/contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom"><p>&copy; 2026 SHEQ Service. Alle rechten voorbehouden.</p></div>
+  </footer>
+  <script src="/main.js"></script>
+</body>
+</html>

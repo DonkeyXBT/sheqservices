@@ -37,6 +37,20 @@ function handleSubmit(e) {
   setTimeout(() => success.classList.remove('visible'), 6000);
 }
 
+// Cookie banner
+const cookieBanner = document.getElementById('cookieBanner');
+if (cookieBanner && !localStorage.getItem('cookie_consent')) {
+  setTimeout(() => cookieBanner.classList.remove('hidden'), 1200);
+}
+document.getElementById('cookieAccept')?.addEventListener('click', () => {
+  localStorage.setItem('cookie_consent', 'accepted');
+  cookieBanner.classList.add('hidden');
+});
+document.getElementById('cookieDecline')?.addEventListener('click', () => {
+  localStorage.setItem('cookie_consent', 'functional');
+  cookieBanner.classList.add('hidden');
+});
+
 // Ensure video autoplay (some browsers require user interaction)
 const video = document.querySelector('.hero video');
 if (video) {
