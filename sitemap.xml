@@ -1,53 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://www.sheq-service.nl/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.sheq-service.nl/r-dlp</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.sheq-service.nl/kvp</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.sheq-service.nl/mvk</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.sheq-service.nl/hvk</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.sheq-service.nl/vg-plannen</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.sheq-service.nl/brl-6000-7000</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.sheq-service.nl/kam-coordinator</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.sheq-service.nl/verhuur-apparaten</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.sheq-service.nl/contact</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
+  <!-- Main -->
+  <url><loc>https://www.sheq-service.nl/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
+
+  <!-- Services -->
+  <url><loc>https://www.sheq-service.nl/r-dlp</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.sheq-service.nl/kvp</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.sheq-service.nl/mvk</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.sheq-service.nl/hvk</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.sheq-service.nl/vg-plannen</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.sheq-service.nl/brl-6000-7000</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.sheq-service.nl/kam-coordinator</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.sheq-service.nl/verhuur-apparaten</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Locations -->
+  <url><loc>https://www.sheq-service.nl/amsterdam</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.sheq-service.nl/rotterdam</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.sheq-service.nl/haarlem</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.sheq-service.nl/dordrecht</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.sheq-service.nl/utrecht</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Blog -->
+  <url><loc>https://www.sheq-service.nl/blog</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.sheq-service.nl/blog/wat-is-r-dlp</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.sheq-service.nl/blog/brl-6000-vs-brl-7000</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.sheq-service.nl/blog/vg-plan-verplicht</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.sheq-service.nl/blog/wat-doet-een-kam-coordinator</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Contact -->
+  <url><loc>https://www.sheq-service.nl/contact</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>
