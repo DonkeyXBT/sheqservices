@@ -814,6 +814,7 @@ body {
   gap: 60px;
 }
 
+.footer-col h4,
 .footer-col h5 {
   font-size: 0.75rem;
   font-weight: 700;
